@@ -78,17 +78,6 @@ h1,h2,h3,h4,h5,h6 {
   right: 30%;
 }
 
-@media (max-width:1028px) {
-  #title {
-    text-align: center;
-  }
-
-  .title-img {
-    position: static;
-    transform: rotate(0);
-  }
-}
-
 /* -----------------------     features level css (section)          ----------------------- */
 #features {
   position: relative;
@@ -165,4 +154,40 @@ h1,h2,h3,h4,h5,h6 {
 
 .footer-icon {
   margin: 0 10px 15px;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    margin-left: 20%;
+  }
+  .big-heading{
+    text-align: center;
+  }
+  #title .left{
+    margin-left: 20%;
+  }
+}
+
+
+@media (max-width:840px){
+  #title .left{
+    margin-left: 16%;
+  }
+}
+
+@media (max-width:710px){
+  #title .left{
+    margin-left: 12%;
+  }
+}
+
+@media (max-width:580px){
+  #title .dw-btn{
+    margin-left: 28%;
+  }
 }
